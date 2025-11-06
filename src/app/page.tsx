@@ -10,7 +10,7 @@ import Stress from '@/components/pages/Stress';
 import WLBDeterminants from '@/components/pages/WLBDeterminants';
 import Reflection from '@/components/pages/Reflection';
 import References from '@/components/pages/References';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 const sections = [
 	{ id: 'section1', name: 'Title' },
@@ -27,31 +27,50 @@ const sections = [
 
 export default function Home() {
 	const [activeSection, setActiveSection] = useState(0);
+	const activeSectionRef = useRef(0);
 
 	useEffect(() => {
 		const scrollContainer = document.getElementById('scroll-container');
 		if (!scrollContainer) return;
 
 		const handleScroll = () => {
-			const scrollPosition =
-				scrollContainer.scrollTop + window.innerHeight / 2;
-			const currentSection = sections.findIndex((_, index) => {
-				const element = document.getElementById(sections[index].id);
+			const scrollTop = scrollContainer.scrollTop;
+			const viewportHeight = window.innerHeight;
+			const scrollPosition = scrollTop + viewportHeight / 3;
+
+			let currentSection = -1;
+			sections.forEach((section, index) => {
+				const element = document.getElementById(section.id);
 				if (element) {
-					const { offsetTop, offsetHeight } = element;
-					return (
+					const { offsetTop } = element;
+					const nextElement =
+						index < sections.length - 1
+							? document.getElementById(sections[index + 1].id)
+							: null;
+					const sectionEnd = nextElement
+						? nextElement.offsetTop
+						: scrollContainer.scrollHeight;
+
+					if (
 						scrollPosition >= offsetTop &&
-						scrollPosition < offsetTop + offsetHeight
-					);
+						scrollPosition < sectionEnd
+					) {
+						currentSection = index;
+					}
 				}
-				return false;
 			});
-			if (currentSection !== -1) {
+
+			if (
+				currentSection !== -1 &&
+				currentSection !== activeSectionRef.current
+			) {
+				activeSectionRef.current = currentSection;
 				setActiveSection(currentSection);
 			}
 		};
 
 		scrollContainer.addEventListener('scroll', handleScroll);
+		handleScroll();
 		return () =>
 			scrollContainer.removeEventListener('scroll', handleScroll);
 	}, []);
@@ -63,36 +82,37 @@ export default function Home() {
 
 	return (
 		<>
-			<div
-				id="scroll-container"
-				className="h-screen overflow-y-scroll snap-y snap-mandatory"
-			>
-				<Title />
-				<Definitions />
-				<WesternPerspectives />
-				<EasternPerspectives />
-				<CrossCulturalComparison />
-				<BurnoutWorkaholism />
-				<Stress />
-				<WLBDeterminants />
-				<Reflection />
-				<References />
-				{/* {sections.map((section, index) => (
-					<section
-						key={section.id}
-						id={section.id}
-						className={`h-screen snap-start flex items-center justify-center ${section.color}`}
-					>
-						<div className="text-center">
-							<h1 className="text-6xl font-bold text-white mb-4">
-								{section.name}
-							</h1>
-							<p className="text-xl text-white/80">
-								Section {index + 1}
-							</p>
-						</div>
-					</section>
-				))} */}
+			<div id="scroll-container" className="h-screen overflow-y-scroll">
+				<div id="section1">
+					<Title />
+				</div>
+				<div id="section2">
+					<Definitions />
+				</div>
+				<div id="section3">
+					<WesternPerspectives />
+				</div>
+				<div id="section4">
+					<EasternPerspectives />
+				</div>
+				<div id="section5">
+					<CrossCulturalComparison />
+				</div>
+				<div id="section6">
+					<BurnoutWorkaholism />
+				</div>
+				<div id="section7">
+					<Stress />
+				</div>
+				<div id="section8">
+					<WLBDeterminants />
+				</div>
+				<div id="section9">
+					<Reflection />
+				</div>
+				<div id="section10">
+					<References />
+				</div>
 			</div>
 
 			{/* Navigation Sidebar */}

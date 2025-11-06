@@ -1,6 +1,6 @@
 export default function Title() {
 	return (
-		<div className="min-h-screen flex items-center justify-center py-8">
+		<div className="flex items-center justify-center py-8 bg-gradient-to-b from-slate-700 to-slate-900">
 			<div className="text-center max-w-7xl mx-auto px-4 py-8 gap-4 flex flex-col">
 				<h1 className="text-4xl font-bold">
 					Cross-Cultural Perceptions of Work-Life Balance

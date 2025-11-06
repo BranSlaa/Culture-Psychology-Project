@@ -2,7 +2,7 @@ import InfoPanel from '@/components/InfoPanel';
 
 export default function Definitions() {
 	return (
-		<div className="min-h-screen flex justify-center bg-red-800">
+		<div className="flex justify-center bg-gradient-to-b from-slate-900 to-red-700">
 			<div className="max-w-7xl mx-auto px-4 py-8 gap-4 flex flex-col">
 				<h1 className="text-5xl font-bold text-center">Key Concepts</h1>
 				<div className="grid md:grid-cols-2 gap-4">
@@ -102,6 +102,12 @@ export default function Definitions() {
 							efforts, which start to take physical or mental
 							responses such as exhaustion, detachment from work,
 							or lack of accomplishment.
+						</p>
+						<p className="mb-4">
+							Burnout = three parts: feeling drained (emotional
+							exhaustion), feeling cynical/detached
+							(depersonalization), and feeling ineffective (low
+							personal accomplishment).
 						</p>
 					</InfoPanel>
 					<InfoPanel title="Leisure & recovery time">

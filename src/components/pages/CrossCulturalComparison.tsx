@@ -1,76 +1,13 @@
 import InfoPanel from '../InfoPanel';
-import ComparisonTable from '../ComparisonTable';
-
-const tableData = [
-	{
-		factor: 'Job demands',
-		usMean: 2.47,
-		usSD: 0.58,
-		chinaMean: 2.9,
-		chinaSD: 0.61,
-		tValue: 16.9,
-		isSignificant: true,
-	},
-	{
-		factor: 'Job autonomy',
-		usMean: 2.79,
-		usSD: 0.75,
-		chinaMean: 3.07,
-		chinaSD: 0.79,
-		tValue: 8.42,
-		isSignificant: false,
-	},
-	{
-		factor: 'Workaholism',
-		usMean: 2.34,
-		usSD: 0.79,
-		chinaMean: 3.28,
-		chinaSD: 0.84,
-		tValue: -27.13,
-		isSignificant: true,
-	},
-	{
-		factor: 'Emotional exhaustion',
-		usMean: 2.77,
-		usSD: 1.69,
-		chinaMean: 2.42,
-		chinaSD: 1.67,
-		tValue: 4.85,
-		isSignificant: true,
-	},
-	{
-		factor: 'Depersonalization',
-		usMean: 2.66,
-		usSD: 1.69,
-		chinaMean: 2.72,
-		chinaSD: 1.44,
-		tValue: -0.81,
-		isSignificant: false,
-	},
-	{
-		factor: 'Personal accomplishment',
-		usMean: 1.41,
-		usSD: 1.06,
-		chinaMean: 1.72,
-		chinaSD: 1.27,
-		tValue: -6.29,
-		isSignificant: true,
-	},
-];
 
 export default function CrossCulturalComparison() {
 	return (
-		<div className="min-h-screen flex justify-center py-8 bg-cyan-700">
+		<div className="flex justify-center py-8 bg-gradient-to-b from-green-700 to-cyan-700">
 			<div className="max-w-7xl mx-auto px-4 py-8 gap-4 flex flex-col">
 				<h1 className="text-4xl font-bold text-center mb-4">
 					Cross-Cultural Comparison
 				</h1>
-				<InfoPanel title="Comparison between China and the United States">
-					<ComparisonTable
-						data={tableData}
-						cite="Cheung et. al., 2018"
-					/>
-				</InfoPanel>
+
 				<InfoPanel title="Individualism vs. Collectivism">
 					<p className="mb-4">
 						Individualistic individuals tend to prioritize personal

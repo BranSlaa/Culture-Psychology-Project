@@ -67,7 +67,7 @@ export default function EasternPerspectives() {
 							<p className="mb-4">
 								Rather than keeping “work” and “life” separate,
 								many Eastern perspectives see them as
-								intertwined parts of one's role in society.
+								intertwined parts of one's societal role.
 								Maintaining harmony across roles (employee,
 								parent, child) is valued more than strict
 								boundaries between them.

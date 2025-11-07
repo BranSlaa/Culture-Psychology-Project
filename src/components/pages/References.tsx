@@ -73,6 +73,14 @@ export default function References() {
 						Applied psychology. Health and well-being, 15(1),
 						133-151. https://doi.org/10.1111/aphw.12394
 					</p>
+					<p className="mb-4 indent-4">
+						Ullah, S. (2010). Perceived Workplace Support And
+						Work-Family Conflict: A Case Study Of Married Admin
+						Staff Members of Punjab University, Lahore. 10th
+						National Research Conference - Shaheed Zulfiqar Ali
+						Bhutto Institute of Information Technology (SZABIST),
+						28-29 January 2010, Islamabad, Pakistan.
+					</p>
 				</InfoPanel>
 			</div>
 		</div>

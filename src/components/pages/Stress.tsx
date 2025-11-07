@@ -33,11 +33,11 @@ export default function Stress() {
 								to solve the problem. Some examples of primary
 								coping strategies are: taking a break, seeking
 								help from a professional, or finding a new job.
-								Secondary coping is focused on changing one's
-								own thoughts, feelings, or behaviors to manage
-								stress. Some examples of secondary coping
-								strategies are: meditation, journaling, or
-								self-talk.
+								Secondary coping is focused on changing
+								one&apos;s own thoughts, feelings, or behaviors
+								to manage stress. Some examples of secondary
+								coping strategies are: meditation, journaling,
+								or self-talk.
 							</p>
 						</InfoPanel>
 					</div>

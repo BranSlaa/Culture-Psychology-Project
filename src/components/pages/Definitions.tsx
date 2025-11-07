@@ -56,15 +56,15 @@ export default function Definitions() {
 						<h4 className="text-lg font-bold">Individualism</h4>
 						<p className="mb-4">
 							A culture that gives priority to personal goals over
-							group goals, and is defined by one's personal
+							group goals, and is defined by one&apos;s personal
 							attributions over group identifications (Myers,
 							2021, p146).
 						</p>
 						<h4 className="text-lg font-bold">Collectivism</h4>
 						<p className="mb-4">
-							A culture that gives priority to one's group, and
-							defines one's identity by group attributions over
-							personal (Myers, 2021, p147).
+							A culture that gives priority to one&apos;s group,
+							and defines one&apos;s identity by group
+							attributions over personal (Myers, 2021, p147).
 						</p>
 						<h3 className="text-xl font-bold text-center">
 							Hofstede Framework
@@ -83,9 +83,10 @@ export default function Definitions() {
 				<div className="grid md:grid-cols-3 gap-4">
 					<InfoPanel title="Work-family conflict">
 						<p className="mb-4">
-							Work-Family Conflict (WFC) is a 'negative spillover'
-							of emotional and behavioral demands between work and
-							family that causes stress, anxiety, and burnout.
+							Work-Family Conflict (WFC) is a &apos;negative
+							spillover&apos; of emotional and behavioral demands
+							between work and family that causes stress, anxiety,
+							and burnout.
 						</p>
 						<p className="mb-4">
 							Work-family conflict leads to increased work-related

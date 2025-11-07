@@ -34,7 +34,7 @@ export default function Reflection() {
 					</h3>
 					<p className="mb-4">
 						Both Cheung et. al. (2018) and Haar et. al. (2014)
-						showed that having control over one's work lowers
+						showed that having control over one&apos;s work lowers
 						exhaustion and improves satisfaction. Regardless of
 						culture, giving employees more say in how and when they
 						work will help support a healthier work-life balance.

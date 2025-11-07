@@ -51,7 +51,8 @@ export default function WesternPerspectives() {
 							Western Europe, people tend to define success by
 							their personal goals and career performance. This
 							often leads to long hours and difficulty “switching
-							off” because work is seen as part of one's identity.
+							off” because work is seen as part of one&apos;s
+							identity.
 						</p>
 
 						<h3 className="text-xl font-bold">
@@ -68,11 +69,11 @@ export default function WesternPerspectives() {
 							Autonomy and choice are highly valued.
 						</h3>
 						<p className="mb-4">
-							Having personal control over one's schedule, job
-							duties, and career direction is seen as essential.
-							People in individualist cultures often associate
-							balance with being free to make their own decisions
-							about when and how to work.
+							Having personal control over one&apos;s schedule,
+							job duties, and career direction is seen as
+							essential. People in individualist cultures often
+							associate balance with being free to make their own
+							decisions about when and how to work.
 						</p>
 
 						<h3 className="text-xl font-bold">

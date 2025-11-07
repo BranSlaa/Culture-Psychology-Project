@@ -42,7 +42,8 @@ export default function WLBDeterminants() {
 					</p>
 					<p className="mb-4">
 						Rehman and Azam Roomi (2012) found work-life balance was
-						a critical motivator to starting one's own business.
+						a critical motivator to starting one&apos;s own
+						business.
 					</p>
 					<p className="mb-4">
 						Gender bias, insufficient time for family obligations
@@ -85,8 +86,8 @@ export default function WLBDeterminants() {
 					</p>
 					<p className="mb-4">
 						As income and education are significantly related to an
-						individual's desire for children, many Singaporeans were
-						not inclined to achieve ideal family sizes due to
+						individual&apos;s desire for children, many Singaporeans
+						were not inclined to achieve ideal family sizes due to
 						financial issues (Amjad et. al., 2019) Additionally
 						additional children were related to lower education and
 						income.

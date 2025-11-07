@@ -47,8 +47,9 @@ export default function EasternPerspectives() {
 							<p className="mb-4">
 								Staying late or showing constant dedication is
 								seen as a sign of respect and commitment to
-								one's organization. Employees often equate hard
-								work with loyalty to their team or employer.
+								one&apos;s organization. Employees often equate
+								hard work with loyalty to their team or
+								employer.
 							</p>
 							<h3 className="text-xl font-bold">
 								Social support softens stress.
@@ -67,7 +68,7 @@ export default function EasternPerspectives() {
 							<p className="mb-4">
 								Rather than keeping “work” and “life” separate,
 								many Eastern perspectives see them as
-								intertwined parts of one's societal role.
+								intertwined parts of one&apos;s societal role.
 								Maintaining harmony across roles (employee,
 								parent, child) is valued more than strict
 								boundaries between them.

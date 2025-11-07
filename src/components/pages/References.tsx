@@ -22,7 +22,7 @@ export default function References() {
 					</p>
 					<p className="mb-4 indent-4">
 						Davies, K., (2017, August 17). Work-life Balance:
-						Eastern And Western Perspectives. Mum\'S the Nerd.
+						Eastern And Western Perspectives. Mum&apos;S the Nerd.
 						https://mumsthenerd.co.uk/work-life-balance-eastern-western-perspectives/
 					</p>
 					<p className="mb-4 indent-4">
@@ -55,8 +55,8 @@ export default function References() {
 						Rossi, M. F., Gualano, M. R., Magnavita, N., Moscato,
 						U., Santoro, P. E., & Borrelli, I. (2023). Coping with
 						burnout and the impact of the COVID-19 pandemic on
-						workers' mental health: A systematic review. Frontiers
-						in Psychiatry, 14.
+						workers&apos; mental health: A systematic review.
+						Frontiers in Psychiatry, 14.
 						https://doi.org/10.3389/fpsyt.2023.1139260
 					</p>
 					<p className="mb-4 indent-4">

@@ -92,6 +92,13 @@ export default function WLBDeterminants() {
 						additional children were related to lower education and
 						income.
 					</p>
+					<h3 className="text-xl font-bold">Europe</h3>
+					<p className="mb-4">
+						In the EU, Tempo, which is defined as hurridness and
+						time pressure, is related to health problems, job
+						satisfaction, general well-being and leisure (Antilla
+						et. al., 2015).
+					</p>
 				</InfoPanel>
 			</div>
 		</div>

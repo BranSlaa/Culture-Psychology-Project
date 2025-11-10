@@ -9,6 +9,12 @@ export default function References() {
 				</h1>
 				<InfoPanel title="">
 					<p className="mb-4 indent-4">
+						Antilla, T., Oinas, T., Tammelin M., Nätti, J., (2015)
+						Working-Time Regimes and Work-Life Balance in Europe,
+						European Sociological Review 31(6).
+						https://doi.org/10.1093/esr/jcv070
+					</p>
+					<p className="mb-4 indent-4">
 						Amjad, A., Ratnesh, M., Sinha, A., (2019). Determinants
 						of Work-Life Balance: A Cross-Cultural Review of
 						Selected Asian Countries. Space and Culture, India,
